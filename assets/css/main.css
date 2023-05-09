@@ -71,7 +71,7 @@
 		--site-bk-color: #fbfbfb;
 
 		/* Top Header */
-		--top-header-bk-color: linear-gradient(135deg,rgb(253,79,24) 10%,rgb(247,157,22) 100%);
+		--top-header-bk-color: 3066BE;
 		--top-header-border-btm-c: #E8E8E8;
 		--top-date-time-bk-color: #f9f9f9;
 
@@ -442,6 +442,7 @@
 
 		--top-header-social-color: #ffffff;
 		--top-header-social-color-hover: #ffffff;
+		
 
 		/* Newsletter and Random news */
 		--header-letter-random-color: #525252;
@@ -1131,7 +1132,7 @@
 	.site-header.layout--default .top-date-time .date {
 		padding-left: 8px;
 	}
-
+	
 	/* Top Ticker News */
 	.top-ticker-news .ticker-item-wrap {
 		visibility: hidden;

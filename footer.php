@@ -16,6 +16,31 @@
   do_action( 'digital_newspaper_before_footer_section' );
 ?>
 	<footer id="colophon" class="site-footer dark_bk">
+		
+		<div class="digital-newspaper-container" id="footerNewsPaperContainer">
+			<div class="row" id="certifiedRow">
+				<h2 id="certifiedFooterText">Certified</h2>
+			</div>
+		</div>
+		<div class="digital-newspaper-container" id="footerNewsPaperContainer">
+			<div class="row" id="certifiedLogosContainer">
+				<div class="certification-logo">
+					<img src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/JOSCAR_PNG_Format-removebg-preview.png">
+				</div>
+				<div class="certification-logo">
+					<img src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/RGB_IMCA_Logo_-_Supplier__S__Member-removebg-preview.png">
+				</div>
+				<div class="certification-logo">
+					<img src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/SGS_ISO_9001_TCL_HR-removebg-preview.png">
+				</div>
+			</div>
+		</div>
+		<div class="digital-newspaper-container" id="footerNewsPaperContainer">
+			<div class="row" id="ltdRow">
+				<h2 id="ltdFooterText">Sub Aquatic Technical Systems Ltd</h2>
+			</div>
+		</div>
+		
 		<?php
 			/**
 			 * Function - digital_newspaper_footer_sections_html

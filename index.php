@@ -66,11 +66,11 @@ foreach( $homepage_content_order as $content_order_key => $content_order ) :
 								if( is_home() && is_front_page() ) do_action( 'digital_newspaper_bottom_full_width_blocks_hook' );
 							break;
 			default: ?>
+
+					<div id="wp-custom-header" class="wp-custom-header">
+						<img src="http://localhost/wp-content/uploads/2023/05/cropped-maxresdefault.jpg">
+					</div>
 					<div id="theme-content">
-						<div id="header-theme-top-image">
-							<img href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.padi.com%2Feducation%2Flearn-to-dive&psig=AOvVaw0ofjaZaD3wZjqYiPQ-uD6P&ust=1683717797417000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCPDqv96P6P4CFQAAAAAdAAAAABAD">
-						</div>
-						<div id="header-theme-image">This is a div</div>
 						<main id="primary" class="site-main <?php echo esc_attr( 'width-' . digial_newspaper_get_section_width_layout_val() ); ?>">
 							<div class="digital-newspaper-container">
                     			<div class="row">

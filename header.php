@@ -16,8 +16,10 @@ use Digital_Newspaper\CustomizerDefault as DN;
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<link 
+	<!-- add additional css as a child theme -->
+
 	<?php wp_head(); ?>
+	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/additional.css">
 </head>
 
 <body <?php body_class(); ?> <?php digital_newspaper_schema_body_attributes(); ?>>

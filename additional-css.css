@@ -129,6 +129,7 @@ flex-wrap: unset;
 }
 .main-footer .footer-widget.column-three{
 flex: unset;
+width: 230px;
 }
 
 

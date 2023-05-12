@@ -33,9 +33,8 @@ if( !class_exists( 'Digital_Newspaper_Theme_Info' ) ) :
             $this->version = wp_get_theme()->get( 'Version' );
             $this->demofile = include get_template_directory() . '/inc/admin/assets/demos.php';
             // some actions of welcome notice
-            if( isset( $_GET['digital_newspaper_pro_welcome_notice_dismiss'] ) ) {
-                update_option( 'digital_newspaper_pro_welcome_notice_dismiss', true );
-            }
+            update_option( 'digital_newspaper_pro_welcome_notice_dismiss', true );
+
             //Add the theme page
             add_action( 'admin_menu', array( $this, 'add_theme_info_menu' ) );
             add_action( 'admin_notices', array( $this, 'add_welcome_admin_notice' ) );

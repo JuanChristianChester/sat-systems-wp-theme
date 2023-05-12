@@ -38,7 +38,7 @@ This css file is for custom css added in to make the theme bespoke for the clien
   background-color: black;
 }
 
-header .main-header{
+header .main-header {
   box-shadow: unset;
 }
 
@@ -79,10 +79,11 @@ body.page #theme-content .row .primary-content {
 
 
 
-#certifiedRow, #ltdRow{
+#certifiedRow,
+#ltdRow {
   display: flex;
-justify-content: center;
-padding: 10px 0;
+  justify-content: center;
+  padding: 10px 0;
 }
 
 #ltdFooterText {
@@ -95,24 +96,27 @@ padding: 10px 0;
 /*------------------Footer-----------------*/
 
 
-#colophon{
-background-color: #EDF2FB;
+#colophon {
+  background-color: #EDF2FB;
 }
+
 /*Removing top boarder in footer*/
-.site-footer.dark_bk{
-border-top: unset;
+.site-footer.dark_bk {
+  border-top: unset;
 }
 
 /*Styling the certification logos*/
-#certifiedLogosContainer{
+#certifiedLogosContainer {
   display: flex;
-justify-content: center;
+  justify-content: center;
 }
-.certification-logo{
-padding: 0 100px;
+
+.certification-logo {
+  padding: 0 100px;
 }
-.certification-logo img{
-height: 150px;
+
+.certification-logo img {
+  height: 150px;
 }
 
 
@@ -124,26 +128,29 @@ height: 150px;
 }
 
 /*This is styling the columns for the footer navigation*/
-.footer-inner .column-three{
+.footer-inner .column-three {
   display: inline-block;
-  width: 230px; 
-	margin: 0 20px;
-	padding: 0 20px;
-	/* Adjust the width based on the number of columns */
+  width: 230px;
+  margin: 0 20px;
+  padding: 0 20px;
+  /* Adjust the width based on the number of columns */
   vertical-align: top;
 }
+
 /* Style the list items */
 .footer-widget ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 .footer-widget ul a {
   display: block;
   color: #333;
   text-decoration: none;
   padding: 5px;
 }
+
 .footer-widget ul a:hover {
   background-color: #ddd;
 }
@@ -153,47 +160,113 @@ height: 150px;
 
 
 
-#satSysTriangle .digital-newspaper-container{
+#satSysTriangle .digital-newspaper-container {
   justify-content: left;
 }
+
 #satSysTriangle img {
   width: 150px;
 }
 
-#footerBottomSection .digital-newspaper-container{
+#footerBottomSection .digital-newspaper-container {
   justify-content: left;
 }
-#footerBottomSection .digital-newspaper-container .row{
+
+#footerBottomSection .digital-newspaper-container .row {
   width: 200px;
 }
+
 #footerBottomSection .digital-newspaper-container .row p {
   font-size: small;
 }
 
 
-#policiesRow{
+#policiesRow {
   width: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#policiesRow ul{
+
+#policiesRow ul {
   display: inline-flex;
   width: max-content;
 }
-#policiesRow ul a{
+
+#policiesRow ul a {
   width: 200px;
   text-align: center;
 }
 
 
-ul.social-icons-footer{
+ul.social-icons-footer {
   margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
 }
-img.footer-social-icons{
-max-width: 30px;
-margin: 10px;
+
+img.footer-social-icons {
+  max-width: 30px;
+  margin: 10px;
+}
+
+/*------------------Header-----------------*/
+/*Removing the title*/
+.entry-title {
+  display: none;
+}
+
+/* Default styles */
+.header-text {
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+  left: 50px;
+  color: white;
+}
+
+.header-image {
+  position: relative;
+  z-index: 0;
+  max-width: 100%;
+  width: 100%;
+  height: 500px; /* Replace with your desired height */
+  object-fit: cover;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 767px) {
+  .header-text {
+    font-size: 24px;
+    top: 60px;
+    left: 20px;
+  }
+  .header-image {
+    height: 300px;
+  }
+}
+
+/* Media query for medium screens */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header-text {
+    font-size: 30px;
+    top: 200px;
+    left: 100px;
+  }
+  .header-image {
+    height: 500px;
+  }
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 1024px) {
+  .header-text {
+    font-size: 36px;
+    top: 300px;
+    left: 100px;
+  }
+  .header-image {
+    height: 600px;
+  }
 }

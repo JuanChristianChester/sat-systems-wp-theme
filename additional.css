@@ -10,55 +10,57 @@ This css file is for custom css added in to make the theme bespoke for the clien
 */
 
 /*Remove news Icons from top banner*/
-.top-header-nrn-button-wrap{
-    display: none !important;
+.top-header-nrn-button-wrap {
+  display: none !important;
 }
+
 /*Setting background color for the top banner*/
-.digital_newspaper_main_body .site-header.layout--default .top-header{
-background: #3066BE;
+.digital_newspaper_main_body .site-header.layout--default .top-header {
+  background: #3066BE;
 }
 
 /*Setting background color for main banner*/
-.site-header.layout--default .site-branding-section 
-{
-background-color: #EDF2FB;
+.site-header.layout--default .site-branding-section {
+  background-color: #EDF2FB;
 }
 
 
 /*Force header-menu to float right*/
-#header-menu{
-float: right;
+#header-menu {
+  float: right;
 }
 
-.menu_txt{
-color: black;
-}
-#digital_newspaper_menu_burger span{
-background-color: black;
+.menu_txt {
+  color: black;
 }
 
-
-#masthead{
-padding-bottom: 0;
+#digital_newspaper_menu_burger span {
+  background-color: black;
 }
 
 
+#masthead {
+  padding-bottom: 0;
+}
 
-body.page #theme-content .row .primary-content{
-background: inherit;
+
+
+body.page #theme-content .row .primary-content {
+  background: inherit;
 }
 
 /*Moving content into the center of the page*/
-.secondary-sidebar{
-display: none;
+.secondary-sidebar {
+  display: none;
 }
+
 #theme-content .row {
-justify-content: center;
+  justify-content: center;
 }
 
 /*Removing news carosel*/
-#bottom-full-width-section{
-display: none;
+#bottom-full-width-section {
+  display: none;
 }
 
 
@@ -71,17 +73,19 @@ display: none;
 
 
 
-#certifiedRow, #ltdRow{
-justify-content: center;
-padding: 10px 0;
-}
-#ltdFooterText{
-color: #010080;
-text-decoration: bold;	
+#certifiedRow,
+#ltdRow {
+  justify-content: center;
+  padding: 10px 0;
 }
 
-#footerNewsPaperContainer{
-background-color: #EDF2FB;
+#ltdFooterText {
+  color: #010080;
+  text-decoration: bold;
+}
+
+#footerNewsPaperContainer {
+  background-color: #EDF2FB;
 }
 
 
@@ -90,88 +94,98 @@ background-color: #EDF2FB;
 
 /*------------------Footer-----------------*/
 
-#colophon{
-background-color: #EDF2FB;
+#colophon {
+  background-color: #EDF2FB;
 }
 
-#certifiedLogosContainer{
-justify-content: center;
+#certifiedLogosContainer {
+  justify-content: center;
 }
 
-.certification-logo{
-padding: 0 100px;
+.certification-logo {
+  padding: 0 100px;
 }
 
-.certification-logo img{
-height: 150px;
+.certification-logo img {
+  height: 150px;
 
 }
 
 
 footer .main-footer {
-background-color: #EDF2FB;
-padding: 0 0 35px 0;
+  background-color: #EDF2FB;
+  padding: 0 0 35px 0;
 }
 
 
-.site-footer.dark_bk{
-border-top: unset;
-}
-.site-footer .bottom-footer{
-    background-color: #EDF2FB;
+.site-footer.dark_bk {
+  border-top: unset;
 }
 
-
-.digital-newspaper-post-blocks-hover--effect-one .widget.widget_block{
-background: #EDF2FB;
+.site-footer .bottom-footer {
+  background-color: #EDF2FB;
 }
 
-.dark_bk .widget_digital_newspaper_posts_list_widget .card__content-title a, .dark_bk .widget.widget_block p, .dark_bk .widget p, .dark_bk .widget h2, .dark_bk .widget a, .dark_bk .widget .no-comments.wp-block-latest-comments {
-color: black
+
+.digital-newspaper-post-blocks-hover--effect-one .widget.widget_block {
+  background: #EDF2FB;
+}
+
+.dark_bk .widget_digital_newspaper_posts_list_widget .card__content-title a,
+.dark_bk .widget.widget_block p,
+.dark_bk .widget p,
+.dark_bk .widget h2,
+.dark_bk .widget a,
+.dark_bk .widget .no-comments.wp-block-latest-comments {
+  color: black
 }
 
 .footer-inner {
-display: flex;
-justify-content: center;
-}
-
-footer .main-footer .row{
-flex-wrap: unset;
-}
-.main-footer .footer-widget.column-three{
-flex: unset;
-}
-
-
-
-footer .row{
   display: flex;
-justify-content: flex-end;
+  justify-content: center;
+}
+
+footer .main-footer .row {
+  flex-wrap: unset;
+}
+
+.main-footer .footer-widget.column-three {
+  flex: unset;
+}
+
+
+
+footer .row {
+  display: flex;
+  justify-content: flex-end;
 }
 
 
 /*remvoing background from footer buttons*/
-footer .social-icons-wrap a i{
-background: unset;
-width: unset;
+footer .social-icons-wrap a i {
+  background: unset;
+  width: unset;
   height: 30px;
-width: 30px;
+  width: 30px;
 }
 
-footer .social-icons-wrap a{
-color: unset;
-margin: 0;
+footer .social-icons-wrap a {
+  color: unset;
+  margin: 0;
 }
-footer .fa-twitter{
- color: #1D9BF0;
+
+footer .fa-twitter {
+  color: #1D9BF0;
 }
-footer .fa-facebook-f{
+
+footer .fa-facebook-f {
   color: #1877F2;
 }
-footer .fa-youtube{
-color: #FF0000;
+
+footer .fa-youtube {
+  color: #FF0000;
 }
 
-footer .fa-linkedin{
-color: #2867B2
+footer .fa-linkedin {
+  color: #2867B2
 }

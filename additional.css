@@ -56,6 +56,13 @@ background: inherit;
 .secondary-sidebar{
 display: none;
 }
+<<<<<<< Updated upstream
+=======
+#theme-content {
+  background: #EDF2FB;
+}
+
+>>>>>>> Stashed changes
 #theme-content .row {
 justify-content: center;
 }
@@ -191,4 +198,18 @@ ul.social-icons-footer{
 img.footer-social-icons{
 max-width: 30px;
 margin: 10px;
+}
+
+
+
+
+
+
+
+
+/*Homepage Css*/
+
+/*Changing tab active colour*/
+.gutena-tab-title.active{
+	background: #010080;
 }

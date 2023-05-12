@@ -38,6 +38,12 @@ This css file is for custom css added in to make the theme bespoke for the clien
   background-color: black;
 }
 
+header .main-header{
+  box-shadow: unset;
+}
+
+
+
 
 #masthead {
   padding-bottom: 0;
@@ -73,10 +79,10 @@ body.page #theme-content .row .primary-content {
 
 
 
-#certifiedRow,
-#ltdRow {
-  justify-content: center;
-  padding: 10px 0;
+#certifiedRow, #ltdRow{
+  display: flex;
+justify-content: center;
+padding: 10px 0;
 }
 
 #ltdFooterText {
@@ -84,108 +90,110 @@ body.page #theme-content .row .primary-content {
   text-decoration: bold;
 }
 
-#footerNewsPaperContainer {
-  background-color: #EDF2FB;
-}
-
-
-
 
 
 /*------------------Footer-----------------*/
 
-#colophon {
-  background-color: #EDF2FB;
+
+#colophon{
+background-color: #EDF2FB;
+}
+/*Removing top boarder in footer*/
+.site-footer.dark_bk{
+border-top: unset;
 }
 
-#certifiedLogosContainer {
-  justify-content: center;
+/*Styling the certification logos*/
+#certifiedLogosContainer{
+  display: flex;
+justify-content: center;
 }
-
-.certification-logo {
-  padding: 0 100px;
+.certification-logo{
+padding: 0 100px;
 }
-
-.certification-logo img {
-  height: 150px;
-
-}
-
-
-footer .main-footer {
-  background-color: #EDF2FB;
-  padding: 0 0 35px 0;
-}
-
-
-.site-footer.dark_bk {
-  border-top: unset;
-}
-
-.site-footer .bottom-footer {
-  background-color: #EDF2FB;
+.certification-logo img{
+height: 150px;
 }
 
 
-.digital-newspaper-post-blocks-hover--effect-one .widget.widget_block {
-  background: #EDF2FB;
-}
 
-.dark_bk .widget_digital_newspaper_posts_list_widget .card__content-title a,
-.dark_bk .widget.widget_block p,
-.dark_bk .widget p,
-.dark_bk .widget h2,
-.dark_bk .widget a,
-.dark_bk .widget .no-comments.wp-block-latest-comments {
-  color: black
-}
-
+/*Containing footer-inner in a flex and centering items, this begins from below "sub aquatic technical systems ltd" and ends at the social icons*/
 .footer-inner {
   display: flex;
   justify-content: center;
 }
 
-footer .main-footer .row {
-  flex-wrap: unset;
+/*This is styling the columns for the footer navigation*/
+.footer-inner .column-three{
+  display: inline-block;
+  width: 230px; 
+	margin: 0 20px;
+	padding: 0 20px;
+	/* Adjust the width based on the number of columns */
+  vertical-align: top;
 }
-
-.main-footer .footer-widget.column-three {
-  flex: unset;
-}
-
-
-
-footer .row {
-  display: flex;
-  justify-content: flex-end;
-}
-
-
-/*remvoing background from footer buttons*/
-footer .social-icons-wrap a i {
-  background: unset;
-  width: unset;
-  height: 30px;
-  width: 30px;
-}
-
-footer .social-icons-wrap a {
-  color: unset;
+/* Style the list items */
+.footer-widget ul {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+}
+.footer-widget ul a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 5px;
+}
+.footer-widget ul a:hover {
+  background-color: #ddd;
 }
 
-footer .fa-twitter {
-  color: #1D9BF0;
+
+
+
+
+
+#satSysTriangle .digital-newspaper-container{
+  justify-content: left;
+}
+#satSysTriangle img {
+  width: 150px;
 }
 
-footer .fa-facebook-f {
-  color: #1877F2;
+#footerBottomSection .digital-newspaper-container{
+  justify-content: left;
+}
+#footerBottomSection .digital-newspaper-container .row{
+  width: 200px;
+}
+#footerBottomSection .digital-newspaper-container .row p {
+  font-size: small;
 }
 
-footer .fa-youtube {
-  color: #FF0000;
+
+#policiesRow{
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#policiesRow ul{
+  display: inline-flex;
+  width: max-content;
+}
+#policiesRow ul a{
+  width: 200px;
+  text-align: center;
 }
 
-footer .fa-linkedin {
-  color: #2867B2
+
+ul.social-icons-footer{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+img.footer-social-icons{
+max-width: 30px;
+margin: 10px;
 }

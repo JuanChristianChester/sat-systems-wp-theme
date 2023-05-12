@@ -129,13 +129,8 @@ else :
 			do_action( 'digital_newspaper_before_main_content' );
 		?>
 		<main id="primary" class="site-main <?php echo esc_attr( 'width-' . digial_newspaper_get_section_width_layout_val() ); ?>">
-			<div class="digital-newspaper-container">
-				<div class="row">
-				<div class="secondary-left-sidebar">
-						<?php
-							get_sidebar('left');
-						?>
-					</div>
+			<div class="Sat-Systems-Newspaper-Container">
+				<div class="Sat-Systems-row">
 					<div class="primary-content">
 						<?php
 							/**

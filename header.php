@@ -56,7 +56,8 @@ use Digital_Newspaper\CustomizerDefault as DN;
 			digital_newspaper_header_html();
 		?>
 	</header><!-- #masthead -->
-	
+	<h1 class="header-text"><?php echo get_the_title(); ?></h1>
+				<img class="header-image" src="<?php echo get_template_directory_uri() . '/assets/images/custom-images/clownfish.png'; ?>" alt="Rack" width="500" height="600"
 	<?php
 	/**
 	 * function - digital_newspaper_after_header_html

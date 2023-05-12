@@ -124,9 +124,6 @@ if (is_front_page()) :
 else :
 	?>
 
-<h1 class="header-text"><?php echo get_the_title(); ?></h1>
-<img class="header-image" src="<?php echo get_template_directory_uri() . '/assets/images/custom-images/clownfish.png'; ?>" alt="Rack" width="500" height="600">
-
 	<div id="theme-content">
 		<?php
 		/**

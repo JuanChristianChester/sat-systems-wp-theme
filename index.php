@@ -66,10 +66,6 @@ foreach( $homepage_content_order as $content_order_key => $content_order ) :
 								if( is_home() && is_front_page() ) do_action( 'digital_newspaper_bottom_full_width_blocks_hook' );
 							break;
 			default: ?>
-
-					<div id="wp-custom-header" class="wp-custom-header">
-						<img src="http://localhost/wp-content/uploads/2023/05/cropped-maxresdefault.jpg">
-					</div>
 					<div id="theme-content">
 						<main id="primary" class="site-main <?php echo esc_attr( 'width-' . digial_newspaper_get_section_width_layout_val() ); ?>">
 							<div class="Sat-Systems-Newspaper-Container">

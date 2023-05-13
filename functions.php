@@ -6,6 +6,9 @@
  *
  * @package Digital Newspaper
  */
+
+ /** require once tgm plugin activation class */
+
 use Digital_Newspaper\CustomizerDefault as DN;
 if ( ! defined( 'DIGITAL_NEWSPAPER_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
@@ -231,3 +234,34 @@ function digital_newspaper_custom_get_posts( $query ) {
 		}
 	}
 }
+
+// function mytheme_activate() {
+// 	$plugins = array(
+// 	  array(
+// 		'name' => 'Advanced Custom Fields Pro',
+// 		'slug' => 'advanced-custom-fields-pro',
+// 		'source' => 'https://connect.advancedcustomfields.com/index.php?p=pro&a=download&k=<your-license-key>&t=plugin',
+// 		'required' => true,
+// 		'force_activation' => true,
+// 		'force_deactivation' => false,
+// 		'external_url' => '',
+// 	  )
+// 	);
+	
+// 	$config = array(
+// 	  'id' => 'my-theme',
+// 	  'default_path' => '',
+// 	  'menu' => 'tgmpa-install-plugins',
+// 	  'parent_slug' => 'themes.php',
+// 	  'capability' => 'edit_theme_options',
+// 	  'has_notices' => true,
+// 	  'dismissable' => true,
+// 	  'dismiss_msg' => '',
+// 	  'is_automatic' => true,
+// 	  'message' => ''
+// 	);
+	
+// 	tgmpa($plugins, $config);
+//   }
+  
+//   add_action('tgmpa_register', 'mytheme_activate');

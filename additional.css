@@ -1,38 +1,41 @@
+/*
+Theme Name: Sat Systems WP Theme
+Author: Juan Christian, Harry Whitelegg
+Description: Sat Systems WP Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-
-
-
-
-
-
-
+This css file is for custom css added in to make the theme bespoke for the client
+*/
 
 /*Remove news Icons from top banner*/
-.top-header-nrn-button-wrap{
-    display: none !important;
+.top-header-nrn-button-wrap {
+  display: none !important;
 }
+
 /*Setting background color for the top banner*/
-.digital_newspaper_main_body .site-header.layout--default .top-header{
-background: #3066BE;
+.digital_newspaper_main_body .site-header.layout--default .top-header {
+  background: #3066BE;
 }
 
 /*Setting background color for main banner*/
-.site-header.layout--default .site-branding-section 
-{
-background-color: #EDF2FB;
+.site-header.layout--default .site-branding-section {
+  background-color: #EDF2FB;
 }
 
 
 /*Force header-menu to float right*/
-#header-menu{
-float: right;
+#header-menu {
+  float: right;
 }
 
-.menu_txt{
-color: black;
+.menu_txt {
+  color: black;
 }
-#digital_newspaper_menu_burger span{
-background-color: black;
+
+#digital_newspaper_menu_burger span {
+  background-color: black;
 }
 
 header .main-header{
@@ -42,31 +45,28 @@ header .main-header{
 
 
 
-#masthead{
-padding-bottom: 0;
+#masthead {
+  padding-bottom: 0;
 }
 
 
 
-body.page #theme-content .row .primary-content{
-background: inherit;
+body.page #theme-content .row .primary-content {
+  background: inherit;
 }
 
 /*Moving content into the center of the page*/
-.secondary-sidebar{
-display: none;
-}
-#theme-content {
-  background: #EDF2FB;
+.secondary-sidebar {
+  display: none;
 }
 
 #theme-content .row {
-justify-content: center;
+  justify-content: center;
 }
 
 /*Removing news carosel*/
-#bottom-full-width-section{
-display: none;
+#bottom-full-width-section {
+  display: none;
 }
 
 
@@ -84,9 +84,10 @@ display: none;
 justify-content: center;
 padding: 10px 0;
 }
-#ltdFooterText{
-color: #010080;
-text-decoration: bold;	
+
+#ltdFooterText {
+  color: #010080;
+  text-decoration: bold;
 }
 
 
@@ -118,8 +119,8 @@ height: 150px;
 
 /*Containing footer-inner in a flex and centering items, this begins from below "sub aquatic technical systems ltd" and ends at the social icons*/
 .footer-inner {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 /*This is styling the columns for the footer navigation*/

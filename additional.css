@@ -270,3 +270,24 @@ img.footer-social-icons {
     height: 600px;
   }
 }
+
+/*---------------Homepage Css---------------*/
+
+/*adding padding to wp-content-containers*/
+.wp-container-3.wp-container-3, .wp-container-7.wp-container-7, .wp-container-10.wp-container-10{
+	padding: 0 100px;
+}
+
+
+/*Featured industries width adjustment*/
+.gutena-tabs-block-5dfc77-a9{
+	align-items: center;
+}
+.gutena-tabs-block>.gutena-tabs-content{
+  width: 1000px;
+}
+
+/*Changing tab active colour*/
+.gutena-tab-title.active{
+	background: #010080;
+}

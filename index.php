@@ -68,8 +68,8 @@ foreach( $homepage_content_order as $content_order_key => $content_order ) :
 			default: ?>
 					<div id="theme-content">
 						<main id="primary" class="site-main <?php echo esc_attr( 'width-' . digial_newspaper_get_section_width_layout_val() ); ?>">
-							<div class="digital-newspaper-container">
-                    			<div class="row">
+							<div class="Sat-Systems-Newspaper-Container">
+                    			<div class="Sat-Systems-row">
 									<div class="secondary-left-sidebar">
 										<?php get_sidebar('left'); ?>
 									</div>

@@ -76,13 +76,9 @@ if( is_front_page() ) :
 							do_action( 'digital_newspaper_before_main_content' );
 						?>
 						<main id="primary" class="site-main">
-							<div class="digital-newspaper-container">
-								<div class="row">
-								<div class="secondary-left-sidebar">
-										<?php
-											get_sidebar('left');
-										?>
-									</div>
+							<div class="Sat-Systems-Newspaper-Container">
+								<div class="Sat-Systems-row">
+
 									<div class="primary-content">
 										<?php
 											/**
@@ -91,7 +87,7 @@ if( is_front_page() ) :
 											 */
 											do_action( 'digital_newspaper_before_inner_content' );
 										?>
-										<div class="post-inner-wrapper">
+										<div class="post-inner-wrapper-sat-systems">
 											<?php
 												while ( have_posts() ) :
 													the_post();

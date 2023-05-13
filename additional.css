@@ -56,13 +56,10 @@ background: inherit;
 .secondary-sidebar{
 display: none;
 }
-<<<<<<< Updated upstream
-=======
 #theme-content {
   background: #EDF2FB;
 }
 
->>>>>>> Stashed changes
 #theme-content .row {
 justify-content: center;
 }
@@ -209,7 +206,24 @@ margin: 10px;
 
 /*Homepage Css*/
 
+/*adding padding to wp-content-containers*/
+.wp-container-3.wp-container-3, .wp-container-7.wp-container-7, .wp-container-10.wp-container-10{
+	padding: 0 100px;
+}
+
+
+/*Featured industries width adjustment*/
+.gutena-tabs-block-5dfc77-a9{
+	align-items: center;
+}
+.gutena-tabs-block>.gutena-tabs-content{
+  width: 1000px;
+}
+
 /*Changing tab active colour*/
 .gutena-tab-title.active{
 	background: #010080;
 }
+
+
+

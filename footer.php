@@ -25,13 +25,13 @@
 		<div class="digital-newspaper-container" id="footerNewsPaperContainer">
 			<div class="row" id="certifiedLogosContainer">
 				<div class="certification-logo">
-					<img src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/JOSCAR_PNG_Format-removebg-preview.png">
+					<img src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/JOSCAR_PNG_Format-removebg-preview.png"; ?>>
 				</div>
 				<div class="certification-logo">
-					<img src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/RGB_IMCA_Logo_-_Supplier__S__Member-removebg-preview.png">
+					<img src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/RGB_IMCA_Logo_-_Supplier__S__Member-removebg-preview.png"; ?>>
 				</div>
 				<div class="certification-logo">
-					<img src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/SGS_ISO_9001_TCL_HR-removebg-preview.png">
+					<img src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/SGS_ISO_9001_TCL_HR-removebg-preview.png"; ?>>
 				</div>
 			</div>
 		</div>
@@ -77,7 +77,7 @@
 		<div class="digital-newspaper-container" id="satSysTriangle">
 			<div class="footer-inner digital-newspaper-container">
 				<div class="footer-widget column-three">
-					<img src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/SAT_Triangle_Logo-removebg-preview.png">
+					<img src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/SAT_Triangle_Logo-removebg-preview.png"?>>
 				</div>
 			</div>
 		</div>
@@ -95,16 +95,16 @@
 				</div>
 			<ul class="social-icons-footer">
 				<a>
-					<img class="footer-social-icons" src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/Twitter.png">
+					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/Twitter.png"; ?>>
 				</a>
 				<a>
-					<img class="footer-social-icons" src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/Facebook.png">
+					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/Facebook.png"; ?>>
 				</a>
 				<a>
-					<img class="footer-social-icons" src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/Youtube.png">
+					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/Youtube.png"; ?>>
 				</a>
 				<a>
-					<img class="footer-social-icons" src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/LinkedIn.png">
+					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/LinkedIn.png"; ?>>
 				</a>
 
 			</ul>

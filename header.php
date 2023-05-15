@@ -71,16 +71,12 @@ use Digital_Newspaper\CustomizerDefault as DN;
 					<h1><?php echo single_cat_title(); ?></h1>
 				</div>
 			<?php endif; ?>
+
+			<!-- if get_field(header_img) is null, return a default image -->
+			<?php $headerImg = get_field("header_img"); ?>
+			<img class="header-image" src="<?php echo $headerImg ? $headerImg : get_stylesheet_directory_uri() . '/assets/images/custom-images/clownfish.png'; ?>" alt="header-image" width="500" height="600" />
 		</div>
 
-
-
-		<!-- if get_field(header_img) is null, return a default image -->
-		<?php if (get_field("header_img") == null) : ?>
-			<img class="header-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/custom-images/clownfish.png" alt="header-image" width="500" height="600" />
-		<?php else : ?>
-			<img class="header-image" src="<?php echo get_field("header_img"); ?>" alt="header-image" width="500" height="600" />
-		<?php endif; ?>
 		<?php
 		/**
 		 * function - digital_newspaper_after_header_html

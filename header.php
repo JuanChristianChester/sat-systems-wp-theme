@@ -59,16 +59,27 @@ use Digital_Newspaper\CustomizerDefault as DN;
 			digital_newspaper_header_html();
 			?>
 		</header><!-- #masthead -->
-		<?php if (is_home() || is_page()) : ?>
-			<h1 class="header-text"><?php echo get_the_title(); ?></h1>
-		<?php elseif (is_category()) : ?>
-			<h1 class="header-text"><?php echo single_cat_title(); ?></h1>
-		<?php endif; ?>
+		<!-- put a white box around the h1 tag-->
+		<div class="header-container">
+			<?php if (is_home() || is_page()) : ?>
+				<div class="header-text">
+					<h1><?php echo get_the_title(); ?></h1>
+					<h2><?php echo get_field("header-subtitle"); ?></h2>
+				</div>
+			<?php elseif (is_category()) : ?>
+				<div class="header-text-category">
+					<h1><?php echo single_cat_title(); ?></h1>
+				</div>
+			<?php endif; ?>
+		</div>
+
+
+
 		<!-- if get_field(header_img) is null, return a default image -->
 		<?php if (get_field("header_img") == null) : ?>
 			<img class="header-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/custom-images/clownfish.png" alt="header-image" width="500" height="600" />
-		<?php else: ?>
-		<img class="header-image" src="<?php echo get_field("header_img"); ?>" alt="header-image" width="500" height="600" />
+		<?php else : ?>
+			<img class="header-image" src="<?php echo get_field("header_img"); ?>" alt="header-image" width="500" height="600" />
 		<?php endif; ?>
 		<?php
 		/**

@@ -243,21 +243,13 @@ img.footer-social-icons {
   /*make border have thicker lines*/
   border-width: 2px;
 }
-
-<<<<<<< Updated upstream
-.header-text h1 {
-=======
 .header-text, .header-text-category h1 {
->>>>>>> Stashed changes
+
   font-size: 36px;
   /* Adjust the font size as needed */
 }
 
-<<<<<<< Updated upstream
-.header-text h2 {
-=======
 .header-text, .header-text-category h2 {
->>>>>>> Stashed changes
   font-size: 24px;
   /* Adjust the font size as needed */
 }

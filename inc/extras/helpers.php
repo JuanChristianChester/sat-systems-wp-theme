@@ -68,6 +68,9 @@ if( !function_exists( 'digital_newspaper_advertisement_block_html' ) ) :
         echo '<div class="top-header">';
             echo '<div class="digital-newspaper-container">';
                 echo '<div class="row">';
+                if (current_user_can('administrator')) { ?>
+                    <a class = "upload-manuals-link" href = "<?php echo get_site_url()?>/index.php/upload-manuals/">Upload Manuals</a>
+                <?php } 
                 /**
                  * hook - digital_newspaper_top_header_hook
                  * 

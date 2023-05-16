@@ -567,3 +567,9 @@ html, body {
   align-items: center;
   flex-wrap: wrap;
 }
+
+.upload-manuals-link {
+  color: #FFFF;
+  text-decoration: none;
+  margin-right: 10px;
+}

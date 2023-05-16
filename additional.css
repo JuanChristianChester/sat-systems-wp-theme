@@ -225,7 +225,7 @@ img.footer-social-icons {
   object-fit: cover;
 }
 
-.header-text {
+.header-text, .header-text-category {
   color: white;
   position: absolute;
   z-index: 1;
@@ -242,6 +242,10 @@ img.footer-social-icons {
   padding: 10px;
   /*make border have thicker lines*/
   border-width: 2px;
+  /*make the border have a shadow*/
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* add text shadow */
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .header-text, .header-text-category h1 {
 

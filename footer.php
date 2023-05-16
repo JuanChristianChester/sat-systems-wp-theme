@@ -16,7 +16,6 @@
  */
 do_action('digital_newspaper_before_footer_section');
 ?>
-<<<<<<< Updated upstream
 	<footer id="colophon" class="site-footer dark_bk">
 		
 		<div class="digital-newspaper-container" id="footerNewsPaperContainer">
@@ -108,91 +107,6 @@ do_action('digital_newspaper_before_footer_section');
 				<a>
 					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/LinkedIn.png"; ?>>
 				</a>
-=======
-<footer id="colophon" class="site-footer dark_bk">
->>>>>>> Stashed changes
-
-	<div class="digital-newspaper-container" id="footerNewsPaperContainer">
-		<div class="row" id="certifiedRow">
-			<h2 id="certifiedFooterText">Certified</h2>
-		</div>
-	</div>
-	<div class="digital-newspaper-container" id="footerNewsPaperContainer">
-		<div class="row" id="certifiedLogosContainer">
-			<div class="certification-logo">
-				<img src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/JOSCAR_PNG_Format-removebg-preview.png">
-			</div>
-			<div class="certification-logo">
-				<img src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/RGB_IMCA_Logo_-_Supplier__S__Member-removebg-preview.png">
-			</div>
-			<div class="certification-logo">
-				<img src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/SGS_ISO_9001_TCL_HR-removebg-preview.png">
-			</div>
-		</div>
-	</div>
-	<div class="digital-newspaper-container" id="footerNewsPaperContainer">
-		<div class="row" id="ltdRow">
-			<h2 id="ltdFooterText">Sub Aquatic Technical Systems Ltd</h2>
-		</div>
-	</div>
-	<div class="digital-newspaper-container" id="footerNewsPaperContainer">
-		<div class="footer-inner digital-newspaper-container">
-			<div class="footer-widget column-three">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Helpdesk</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="#">About</a></li>
-				</ul>
-			</div>
-			<div class="footer-widget column-three">
-				<ul>
-					<li><a href="#">Products and Solutions</a></li>
-					<li><a href="#">Instrumentation</a></li>
-					<li><a href="#">Data Logging</a></li>
-					<li><a href="#">Communication</a></li>
-				</ul>
-			</div>
-			<div class="footer-widget column-three">
-				<ul>
-					<li><a href="#">Industries</a></li>
-					<li><a href="#">Commercial Diving</a></li>
-					<li><a href="#">Medical</a></li>
-					<li><a href="#">Defense</a></li>
-					<li><a href="#">Tunneling</a></li>
-					<li><a href="#">Leisure Submarines</a></li>
-					<li><a href="#">Hyperbaric Chambers</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
-	<div class="digital-newspaper-container" id="satSysTriangle">
-		<div class="footer-inner digital-newspaper-container">
-			<div class="footer-widget column-three">
-				<img src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/SAT_Triangle_Logo-removebg-preview.png" alt="SAT Systems Logo">
-			</div>
-		</div>
-	</div>
-
-	<div class="digital-newspaper-container" id="footerBottomSection">
-		<div class="footer-inner digital-newspaper-container">
-			<div class="footer-widget column-two" id="locationRow">
-				<p>SAT Systems Ltd, 26 Main Road, Kirk Michael, Isle of Man, IM6 1SS</p>
-			</div>
-			<div class="footer-widget column-two" id="policiesRow">
-					<a href="#">Terms & Conditions</a>
-					<a href="#">Privacy Policy</a>
-					<a href="#">Quality Policy</a>
-			</div>
-			<div class="social-icons-footer">
-				<a href="#"><img class="footer-social-icons" src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/Twitter.png" alt="Twitter"></a>
-				<a href="#"><img class="footer-social-icons" src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/Facebook.png" alt="Facebook"></a>
-				<a href="#"><img class="footer-social-icons" src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/Youtube.png" alt="YouTube"></a>
-				<a href="#"><img class="footer-social-icons" src="http://localhost/wp-content/themes/sat-systems-wp-theme/assets/images/custom-images/LinkedIn.png" alt="LinkedIn"></a>
-			</div>
-
 		</div>
 	</div>
 	</div>

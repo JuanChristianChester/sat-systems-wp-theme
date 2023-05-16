@@ -69,16 +69,6 @@ body.page #theme-content .row .primary-content {
   display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
 #certifiedRow,
 #ltdRow {
   display: flex;
@@ -112,7 +102,7 @@ body.page #theme-content .row .primary-content {
 }
 
 .certification-logo {
-  padding: 0 100px;
+  padding: 0 10px;
 }
 
 .certification-logo img {
@@ -148,7 +138,8 @@ body.page #theme-content .row .primary-content {
   display: block;
   color: #333;
   text-decoration: none;
-  padding: 5px;
+  padding: 0px;
+  width: 33%;
 }
 
 .footer-widget ul a:hover {
@@ -165,15 +156,16 @@ body.page #theme-content .row .primary-content {
 }
 
 #satSysTriangle img {
-  width: 150px;
+  width: 50%;
 }
 
 #footerBottomSection .digital-newspaper-container {
   justify-content: left;
+  flex-direction: row;
 }
 
 #footerBottomSection .digital-newspaper-container .row {
-  width: 200px;
+  width: 100%;
 }
 
 #footerBottomSection .digital-newspaper-container .row p {
@@ -182,7 +174,7 @@ body.page #theme-content .row .primary-content {
 
 
 #policiesRow {
-  width: 600px;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,7 +219,8 @@ img.footer-social-icons {
 
 .header-image {
   width: 100%;
-  height: 600px; /* Set a specific height for the image */
+  height: 600px;
+  /* Set a specific height for the image */
   max-height: 100%;
   object-fit: cover;
 }
@@ -236,7 +229,8 @@ img.footer-social-icons {
   color: white;
   position: absolute;
   z-index: 1;
-  left: 50px; /* Adjust the left positioning as needed */
+  left: 50px;
+  /* Adjust the left positioning as needed */
   top: 50%;
   transform: translateY(-50%);
   text-align: left;
@@ -253,13 +247,13 @@ img.footer-social-icons {
   /* add text shadow */
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+.header-text, .header-text-category h1 {
 
-.header-text, .header-text-category  h1 {
   font-size: 36px;
   /* Adjust the font size as needed */
 }
 
-.header-text, .header-text-category  h2 {
+.header-text, .header-text-category h2 {
   font-size: 24px;
   /* Adjust the font size as needed */
 }
@@ -321,4 +315,255 @@ img.footer-social-icons {
 /*Changing tab active colour*/
 .gutena-tab-title.active {
   background: #010080;
+}
+
+.certifiedLogosContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*make the site more responsive for mobile*/
+@media screen and (max-width: 767px) {
+
+  .wp-container-3.wp-container-3,
+  .wp-container-7.wp-container-7,
+  .wp-container-10.wp-container-10 {
+    padding: 0 10px;
+  }
+
+  .gutena-tabs-block>.gutena-tabs-content {
+    width: 100%;
+  }
+}
+
+/*Removing dark mode slider*/
+.blaze-switcher-button {
+  display: none;
+}
+
+.header-text {
+  width: 50%;
+  background: rgba(100, 100, 100, 0.4);
+}
+
+.header-text h1,
+.header-text h2 {
+  margin: 0;
+}
+
+/*Homepage Css*/
+#lgx_logo_slider_app_667 {
+  background-color: #bde0fe;
+  padding: 50px 0;
+}
+
+.wp-block-embed iframe {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  #lgx_logo_slider_app_667 .lgx_logo_slider {
+    width: 100% !important;
+  }
+
+  .home-intro-container {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px !important;
+  }
+
+  div.home-intro-columns {
+    width: 100% !important;
+  }
+
+  .header-text {
+    width: 100%;
+  }
+}
+
+/*Analyzers page*/
+#post-320 {
+  display: flex;
+  justify-content: center;
+}
+
+.content-width-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.category-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #bde0fe;
+}
+
+.category-description {
+  margin-bottom: 10px;
+}
+
+.expand-button,
+.expand-button-up {
+  border: none;
+  color: #333;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.expand-button-up {
+  display: none;
+}
+
+.fa .fa-sharp .fa-solid .fa-caret-down,
+.fa .fa-sharp .fa-solid .fa-caret-up {
+  font-size: 30px;
+}
+
+.product-list {
+  display: none;
+  margin-top: 10px;
+}
+
+.product-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-list li {
+  margin-bottom: 5px;
+}
+
+/*Product page*/
+.spec-table {
+  display: none;
+}
+
+.download-container {
+  padding: 20px 0;
+}
+
+.download-container a {
+  font-size: 20px;
+}
+
+/*Industries Pages*/
+.industries-products {
+  padding: 25px 0 !important;
+}
+
+.product-link-button {
+  text-decoration: none !important;
+}
+
+body .entry-content a {
+  text-decoration: unset !important;
+  color: unset !important;
+}
+
+.industries-tab-title {
+  background: #bde0fe;
+  margin: 0;
+  padding: 10px;
+}
+
+.wp-block-gutena-tabs,
+.gutena-tabs-block>.gutena-tabs-content>.gutena-tab-block {
+  background: #bde0fe;
+}
+
+.psac-post-slider.psac-design-1 {
+  padding: 50px 0;
+}
+
+/*make it so the width of the page is always the width of the screen and no wider*/
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/*images in the footer should shrink, not be cut off*/
+.certification-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+/* At 450px screen width, the logo images should be reduced in size */
+@media screen and (max-width: 450px) {
+  .certification-logo img {
+    max-width: 50%;
+    height: auto;
+  }
+}
+
+/* Media query for screens with a maximum width of 768px (tablets and below) */
+@media screen and (max-width: 1156px) {
+  .footer-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-widget {
+    flex-basis: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-widget.column-three {
+    flex-basis: 100%;
+  }
+
+  .social-icons-footer {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .social-icons-footer a {
+    margin: 0 10px;
+  }
+
+  .footer-widget {
+    flex-basis: 100%;
+  }
+
+  .footer-widget ul {
+    padding-inline-start: 0;
+  }
+
+  .social-icons-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-icons-footer a {
+    margin: 10px 0;
+  }
+
+  /*flex policies row li into column*/
+  .footer-widget ul li {
+    display: block;
+  }
+}
+
+/*policiesRow a formatting*/
+#policiesRow a {
+  color: #000;
+  text-decoration: none;
+  margin: 0 10px;
+}
+ /*align all items in the footer to center*/
+#footerNewsPaperContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }

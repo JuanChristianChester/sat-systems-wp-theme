@@ -1,9 +1,23 @@
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'),
+    url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2)
+      format('woff2');
+  font-display: swap;
+}
+
 #policiesRow a, .footer-widget ul a, .row a {
   text-decoration: none
 }
 
 #certifiedRow, #ltdRow, #theme-content .row {
   justify-content: center
+}
+
+.site-footer {
+  margin-top: 2%;
 }
 
 .footer-widget ul, .product-list ul {
@@ -135,14 +149,14 @@ body.page #theme-content .row .primary-content {
 }
 
 #policiesRow ul a {
-  width: 200px;
+  padding: 0 10px;
   text-align: center
 }
 
 ul.social-icons-footer {
   margin: 0;
   padding: 0;
-  display: flex;
+  display: table-row;
   align-items: center
 }
 
@@ -315,7 +329,7 @@ body, html {
 
 #policiesRow a {
   color: #000;
-  margin: 0 10px
+  margin: 0;
 }
 
 #footerNewsPaperContainer {
@@ -438,7 +452,17 @@ body .entry-content a {
 
 .row a {
   color: #fffF;
-  color: #fffF
+}
+
+#footerNewsPaperContainer a {
+  color: #000;
+}
+
+#footerNewsPaperContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .quote-page-columns {

@@ -59,7 +59,6 @@ use Digital_Newspaper\CustomizerDefault as DN;
 			digital_newspaper_header_html();
 			?>
 		</header><!-- #masthead -->
-		<!-- put a white box around the h1 tag-->
 		<div class="header-container">
 			<?php if (is_home() || is_page()) : ?>
 				<div class="header-text">

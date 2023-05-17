@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     addButton.addEventListener('click', function() {
       var productField = document.createElement('select');
       productField.name = 'products[]';
-      productField.innerHTML = '<option value="">Select a product</option><option value="C01-001-001-02-0-1">C01-001-001-02-0-1</option><option value="SAT-30-01">SAT-30-01</option><option value="C08-001-001-02-1-1">C08-001-001-02-1-1</option><option value="C08-012-013-01-2-1">C08-012-013-01-2-1</option><option value="B09-35-13">B09-35-13</option>';
+      productField.innerHTML = '<option value="">Select a product</option><option value="C01-001-001-02-0-1 - Product 1">C01-001-001-02-0-1 - Product 1</option><option value="SAT-30-01 - Product 2">SAT-30-01 - Product 2</option><option value="C08-001-001-02-1-1 - Product 3">C08-001-001-02-1-1 - Product 3</option><option value="C08-012-013-01-2-1 - Product 4">C08-012-013-01-2-1 - Product 4</option><option value="B09-35-13 - Product 5">B09-35-13 - Product 5</option>';
       productField.classList.add('product-field'); // Add a CSS class to the product field
   
       var quantityField = document.createElement('input');

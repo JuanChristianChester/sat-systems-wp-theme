@@ -26,13 +26,13 @@ do_action('digital_newspaper_before_footer_section');
 		<div class="digital-newspaper-container" id="footerNewsPaperContainer">
 			<div class="row" id="certifiedLogosContainer">
 				<div class="certification-logo">
-					<img src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/JOSCAR_PNG_Format-removebg-preview.png"; ?>>
+					<img src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/JOSCAR_PNG_Format-removebg-preview.png"; ?> alt = "JOSCAR Logo">
 				</div>
 				<div class="certification-logo">
-					<img src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/RGB_IMCA_Logo_-_Supplier__S__Member-removebg-preview.png"; ?>>
+					<img src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/RGB_IMCA_Logo_-_Supplier__S__Member-removebg-preview.png"; ?>alt = "IMCA Logo">
 				</div>
 				<div class="certification-logo">
-					<img src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/SGS_ISO_9001_TCL_HR-removebg-preview.png"; ?>>
+					<img src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/SGS_ISO_9001_TCL_HR-removebg-preview.png"; ?>alt = "SGS Logo">
 				</div>
 			</div>
 		</div>
@@ -45,24 +45,19 @@ do_action('digital_newspaper_before_footer_section');
 			<div class="footer-inner digital-newspaper-container">
 				<div class="row">
 					<div class="footer-widget column-three">
-						<ul>
 							<a>Home</a>
 							<a>Helpdesk</a>
 							<a>News</a>
 							<a>Contact</a>
 							<a>About</a>
-						</ul>
 					</div>
 					<div class="footer-widget column-three">
-					<ul>
 							<a>Products and Solutions</a>
 							<a>Instrumentation</a>
 							<a>Data Logging</a>
 							<a>Communication</a>
-						</ul>
 					</div>
 					<div class="footer-widget column-three">
-					<ul>
 							<a>Industries</a>
 							<a>Commercial Diving</a>
 							<a>Medical</a>
@@ -70,7 +65,6 @@ do_action('digital_newspaper_before_footer_section');
 							<a>Tunneling</a>
 							<a>Leisure Submarines</a>
 							<a>Hyperbaric Chambers</a>
-						</ul>
 					</div>
 				</div>
 			</div>
@@ -96,16 +90,16 @@ do_action('digital_newspaper_before_footer_section');
 				</div>
 			<ul class="social-icons-footer">
 				<a>
-					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/Twitter.png"; ?>>
+					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/Twitter.png"; ?>alt = "Twitter">
 				</a>
 				<a>
-					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/Facebook.png"; ?>>
+					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/Facebook.png"; ?> alt = "Facebook">
 				</a>
 				<a>
-					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/Youtube.png"; ?>>
+					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/Youtube.png"; ?> alt = "Youtube">
 				</a>
 				<a>
-					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/LinkedIn.png"; ?>>
+					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/LinkedIn.png"; ?> alt = "LinkedIn">
 				</a>
 		</div>
 	</div>

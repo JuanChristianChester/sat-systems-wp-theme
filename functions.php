@@ -246,12 +246,14 @@ function digital_newspaper_custom_get_posts($query)
 	}
 }
 
-
 function enqueue_custom_scripts()
 {
-	wp_enqueue_script('custom-script', get_stylesheet_directory_uri() . '/js/custom.js', array('jquery'), '1.0', true);
+	if (is_page('get-a-quote')) {
+		wp_enqueue_script('custom-script', get_stylesheet_directory_uri() . '/js/custom.js', array('jquery'), '1.0', true);
+	}
 }
 add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
+
 
 
 // function mytheme_activate() {

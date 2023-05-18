@@ -1,320 +1,254 @@
-/*
-Theme Name: Sat Systems WP Theme
-Author: Juan Christian, Harry Whitelegg
-Description: Sat Systems WP Theme
-Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'),
+    url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2)
+      format('woff2');
+  font-display: swap;
+}
 
-This css file is for custom css added in to make the theme bespoke for the client
-*/
 
-/*Remove news Icons from top banner*/
+#policiesRow a, .footer-widget ul a, .row a {
+  text-decoration: none
+}
+
+#certifiedRow, #ltdRow, #theme-content .row {
+  justify-content: center
+}
+
+.site-footer {
+  margin-top: 2%;
+}
+
+.footer-widget ul, .product-list ul {
+  list-style-type: none;
+  padding: 0
+}
+
+#footerBottomSection .digital-newspaper-container .row, .wp-block-embed iframe, body, html {
+  width: 100%
+}
+
 .top-header-nrn-button-wrap {
-  display: none !important;
+  display: none !important
 }
 
-/*Setting background color for the top banner*/
 .digital_newspaper_main_body .site-header.layout--default .top-header {
-  background: #3066BE;
+  background: #3066be
 }
 
-/*Setting background color for main banner*/
-.site-header.layout--default .site-branding-section {
-  background-color: #EDF2FB;
+#colophon, .site-header.layout--default .site-branding-section {
+  background-color: #edf2fb
 }
 
-
-/*Force header-menu to float right*/
 #header-menu {
-  float: right;
+  float: right
 }
 
 .menu_txt {
-  color: black;
+  color: #000
 }
 
 #digital_newspaper_menu_burger span {
-  background-color: black;
+  background-color: #000
 }
 
 header .main-header {
-  box-shadow: unset;
+  box-shadow: unset
 }
-
-
-
 
 #masthead {
-  padding-bottom: 0;
+  padding-bottom: 0
 }
-
-
 
 body.page #theme-content .row .primary-content {
-  background: inherit;
+  background: inherit
 }
 
-/*Moving content into the center of the page*/
-.secondary-sidebar {
-  display: none;
+#bottom-full-width-section, .blaze-switcher-button, .entry-title, .expand-button-up, .secondary-sidebar, .spec-table {
+  display: none
 }
 
-#theme-content .row {
-  justify-content: center;
-}
-
-/*Removing news carosel*/
-#bottom-full-width-section {
-  display: none;
-}
-
-#certifiedRow,
-#ltdRow {
+#certifiedRow, #ltdRow {
   display: flex;
-  justify-content: center;
-  padding: 10px 0;
+  padding: 10px 0
 }
 
 #ltdFooterText {
   color: #010080;
-  text-decoration: bold;
+  text-decoration: bold
 }
 
-
-
-/*------------------Footer-----------------*/
-
-
-#colophon {
-  background-color: #EDF2FB;
-}
-
-/*Removing top boarder in footer*/
 .site-footer.dark_bk {
-  border-top: unset;
+  border-top: unset
 }
 
-/*Styling the certification logos*/
-#certifiedLogosContainer {
+#certifiedLogosContainer, #post-320, .footer-inner {
   display: flex;
-  justify-content: center;
+  justify-content: center
 }
 
 .certification-logo {
-  padding: 0 10px;
+  padding: 0 10px
 }
 
 .certification-logo img {
-  height: 150px;
+  height: 150px
 }
 
-
-
-/*Containing footer-inner in a flex and centering items, this begins from below "sub aquatic technical systems ltd" and ends at the social icons*/
-.footer-inner {
-  display: flex;
-  justify-content: center;
-}
-
-/*This is styling the columns for the footer navigation*/
 .footer-inner .column-three {
   display: inline-block;
   width: 230px;
   margin: 0 20px;
   padding: 0 20px;
-  /* Adjust the width based on the number of columns */
-  vertical-align: top;
+  vertical-align: top
 }
 
-/* Style the list items */
-.footer-widget ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.footer-widget ul, .header-text h1, .header-text h2 {
+  margin: 0
 }
 
 .footer-widget ul a {
   display: block;
   color: #333;
-  text-decoration: none;
-  padding: 0px;
-  width: 33%;
+  padding: 0;
+  width: 33%
 }
 
 .footer-widget ul a:hover {
-  background-color: #ddd;
+  background-color: #ddd
 }
 
-
-
-
-
-
 #satSysTriangle .digital-newspaper-container {
-  justify-content: left;
+  justify-content: left
 }
 
 #satSysTriangle img {
-  width: 50%;
+  width: 50%
 }
 
 #footerBottomSection .digital-newspaper-container {
   justify-content: left;
-  flex-direction: row;
-}
-
-#footerBottomSection .digital-newspaper-container .row {
-  width: 100%;
+  flex-direction: row
 }
 
 #footerBottomSection .digital-newspaper-container .row p {
-  font-size: small;
+  font-size: small
 }
-
 
 #policiesRow {
   width: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center
 }
 
 #policiesRow ul {
   display: inline-flex;
-  width: max-content;
+  width: max-content
 }
 
 #policiesRow ul a {
-  width: 200px;
-  text-align: center;
+  padding: 0 10px;
+  text-align: center
 }
-
 
 ul.social-icons-footer {
   margin: 0;
   padding: 0;
-  display: flex;
-  align-items: center;
+  display: table-row;
+  align-items: center
 }
 
 img.footer-social-icons {
   max-width: 30px;
-  margin: 10px;
-}
-
-/*------------------Header-----------------*/
-
-/* Removing the title */
-.entry-title {
-  display: none;
+  margin: 10px
 }
 
 .header-container {
   display: flex;
   align-items: center;
   position: relative;
-  max-width: 100%;
+  max-width: 100%
 }
 
 .header-image {
   width: 100%;
   height: 600px;
-  /* Set a specific height for the image */
   max-height: 100%;
-  object-fit: cover;
+  object-fit: cover
 }
 
 .header-text, .header-text-category {
-  color: white;
+  color: #fff;
   position: absolute;
   z-index: 1;
   left: 50px;
-  /* Adjust the left positioning as needed */
   top: 50%;
   transform: translateY(-50%);
   text-align: left;
-  /*add a white border around the container*/
-  border: 1px solid white;
-  /*curve the edges of the border*/
+  border: 2px solid #fff;
   border-radius: 10px;
-  /*make the border area bigger*/
   padding: 10px;
-  /*make border have thicker lines*/
-  border-width: 2px;
-  /*make the border have a shadow*/
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  /* add text shadow */
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  text-shadow: 0 0 10px rgba(0, 0, 0, .5)
 }
-.header-text, .header-text-category h1 {
 
-  font-size: 36px;
-  /* Adjust the font size as needed */
+.header-text, .header-text-category h1 {
+  font-size: 36px
 }
 
 .header-text, .header-text-category h2 {
-  font-size: 24px;
-  /* Adjust the font size as needed */
+  font-size: 24px
 }
 
-/* Responsive adjustments */
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px) {
   .header-text {
     left: 10px;
     right: 10px;
-    padding: 20px;
+    padding: 20px
   }
 
   .header-text h1 {
-    font-size: 28px;
+    font-size: 28px
   }
 
   .header-text h2 {
-    font-size: 18px;
+    font-size: 18px
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
   .header-text {
     left: 20px;
     right: 20px;
-    padding: 30px;
+    padding: 30px
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width:1024px) {
   .header-text {
     left: 50px;
     right: 50px;
-    padding: 40px;
+    padding: 40px
   }
 }
 
-
-
-/*---------------Homepage Css---------------*/
-
-/*adding padding to wp-content-containers*/
-.wp-container-3.wp-container-3,
-.wp-container-7.wp-container-7,
-.wp-container-10.wp-container-10 {
-  padding: 0 100px;
+.wp-container-10.wp-container-10, .wp-container-3.wp-container-3, .wp-container-7.wp-container-7 {
+  padding: 0 100px
 }
 
-
-/*Featured industries width adjustment*/
 .gutena-tabs-block-5dfc77-a9 {
-  align-items: center;
+  align-items: center
 }
 
 .gutena-tabs-block>.gutena-tabs-content {
-  width: 1000px;
+  width: 1000px
 }
 
-/*Changing tab active colour*/
 .gutena-tab-title.active {
-  background: #010080;
+  background: #010080
 }
 
 .certifiedLogosContainer {
@@ -322,202 +256,50 @@ img.footer-social-icons {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap
 }
 
-/*make the site more responsive for mobile*/
-@media screen and (max-width: 767px) {
-
-  .wp-container-3.wp-container-3,
-  .wp-container-7.wp-container-7,
-  .wp-container-10.wp-container-10 {
-    padding: 0 10px;
+@media screen and (max-width:767px) {
+  .wp-container-10.wp-container-10, .wp-container-3.wp-container-3, .wp-container-7.wp-container-7 {
+    padding: 0 10px
   }
 
   .gutena-tabs-block>.gutena-tabs-content {
-    width: 100%;
+    width: 100%
   }
 }
 
-/*Removing dark mode slider*/
-.blaze-switcher-button {
-  display: none;
+body, html {
+  overflow-x: hidden
 }
 
-.header-text {
-  width: 50%;
-  background: rgba(100, 100, 100, 0.4);
-}
-
-.header-text h1,
-.header-text h2 {
-  margin: 0;
-}
-
-/*Homepage Css*/
-#lgx_logo_slider_app_667 {
-  background-color: #bde0fe;
-  padding: 50px 0;
-}
-
-.wp-block-embed iframe {
-  width: 100%;
-}
-
-@media (max-width: 768px) {
-  #lgx_logo_slider_app_667 .lgx_logo_slider {
-    width: 100% !important;
-  }
-
-  .home-intro-container {
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 50px !important;
-  }
-
-  div.home-intro-columns {
-    width: 100% !important;
-  }
-
-  .header-text {
-    width: 100%;
-  }
-}
-
-/*Analyzers page*/
-#post-320 {
-  display: flex;
-  justify-content: center;
-}
-
-.content-width-container {
-  width: 50%;
-  margin: 0 auto;
-}
-
-.category-box {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-bottom: 10px;
-  background: #bde0fe;
-}
-
-.category-description {
-  margin-bottom: 10px;
-}
-
-.expand-button,
-.expand-button-up {
-  border: none;
-  color: #333;
-  padding: 5px 10px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-}
-
-.expand-button-up {
-  display: none;
-}
-
-.fa .fa-sharp .fa-solid .fa-caret-down,
-.fa .fa-sharp .fa-solid .fa-caret-up {
-  font-size: 30px;
-}
-
-.product-list {
-  display: none;
-  margin-top: 10px;
-}
-
-.product-list ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.product-list li {
-  margin-bottom: 5px;
-}
-
-/*Product page*/
-.spec-table {
-  display: none;
-}
-
-.download-container {
-  padding: 20px 0;
-}
-
-.download-container a {
-  font-size: 20px;
-}
-
-/*Industries Pages*/
-.industries-products {
-  padding: 25px 0 !important;
-}
-
-.product-link-button {
-  text-decoration: none !important;
-}
-
-body .entry-content a {
-  text-decoration: unset !important;
-  color: unset !important;
-}
-
-.industries-tab-title {
-  background: #bde0fe;
-  margin: 0;
-  padding: 10px;
-}
-
-.wp-block-gutena-tabs,
-.gutena-tabs-block>.gutena-tabs-content>.gutena-tab-block {
-  background: #bde0fe;
-}
-
-.psac-post-slider.psac-design-1 {
-  padding: 50px 0;
-}
-
-/*make it so the width of the page is always the width of the screen and no wider*/
-
-html, body {
-  width: 100%;
-  overflow-x: hidden;
-}
-
-/*images in the footer should shrink, not be cut off*/
 .certification-logo {
   max-width: 100%;
-  height: auto;
+  height: auto
 }
 
-/* At 450px screen width, the logo images should be reduced in size */
-@media screen and (max-width: 450px) {
+@media screen and (max-width:450px) {
   .certification-logo img {
     max-width: 50%;
-    height: auto;
+    height: auto
   }
 }
 
-/* Media query for screens with a maximum width of 768px (tablets and below) */
-@media screen and (max-width: 1156px) {
+@media screen and (max-width:1156px) {
   .footer-inner {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center
   }
 
   .footer-widget {
     flex-basis: 50%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 20px
   }
 
-  .footer-widget.column-three {
-    flex-basis: 100%;
+  .footer-widget, .footer-widget.column-three {
+    flex-basis: 100%
   }
 
   .social-icons-footer {
@@ -525,45 +307,167 @@ html, body {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-  }
-
-  .social-icons-footer a {
-    margin: 0 10px;
-  }
-
-  .footer-widget {
-    flex-basis: 100%;
+    flex-direction: column;
+    align-items: center
   }
 
   .footer-widget ul {
-    padding-inline-start: 0;
-  }
-
-  .social-icons-footer {
-    flex-direction: column;
-    align-items: center;
+    padding-inline-start: 0
   }
 
   .social-icons-footer a {
-    margin: 10px 0;
+    margin: 10px 0
   }
 
-  /*flex policies row li into column*/
   .footer-widget ul li {
-    display: block;
+    display: block
   }
 }
 
-/*policiesRow a formatting*/
+.product-quantity-wrapper input, .product-quantity-wrapper select, .row a {
+  margin-right: 10px
+}
+
 #policiesRow a {
   color: #000;
-  text-decoration: none;
-  margin: 0 10px;
+  margin: 0;
 }
- /*align all items in the footer to center*/
+
+#footerNewsPaperContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap
+}
+
+.wp-block-button.is-style-outline>.wp-block-button__link {
+  color: #fff !important
+}
+
+#theme-content {
+  background: #edf2fb
+}
+
+.header-text {
+  width: 50%;
+  background: rgba(100, 100, 100, .4)
+}
+
+.category-box, .gutena-tabs-block>.gutena-tabs-content>.gutena-tab-block, .wp-block-gutena-tabs {
+  background: #bde0fe
+}
+
+#lgx_logo_slider_app_667 {
+  background-color: #bde0fe;
+  padding: 50px 0
+}
+
+@media (max-width:768px) {
+  #lgx_logo_slider_app_667 .lgx_logo_slider, div.home-intro-columns {
+    width: 100% !important
+  }
+
+  .home-intro-container {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px !important
+  }
+
+  .header-text {
+    width: 100%
+  }
+}
+
+.content-width-container {
+  width: 50%;
+  margin: 0 auto
+}
+
+.category-box, .category-description, .product-field, .quantity-field {
+  margin-bottom: 10px
+}
+
+.category-box {
+  border: 1px solid #ccc;
+  padding: 10px
+}
+
+.expand-button, .expand-button-up {
+  border: none;
+  color: #333;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center
+}
+
+.fa .fa-sharp .fa-solid .fa-caret-down, .fa .fa-sharp .fa-solid .fa-caret-up {
+  font-size: 30px
+}
+
+.product-list {
+  display: none;
+  margin-top: 10px
+}
+
+.product-list li {
+  margin-bottom: 5px
+}
+
+.download-container {
+  padding: 20px 0
+}
+
+.download-container a {
+  font-size: 20px
+}
+
+.industries-products {
+  padding: 25px 0 !important
+}
+
+.product-link-button {
+  text-decoration: none !important
+}
+
+body .entry-content a {
+  text-decoration: unset !important;
+  color: unset !important
+}
+
+.industries-tab-title {
+  background: #bde0fe;
+  margin: 0;
+  padding: 10px
+}
+
+.psac-post-slider.psac-design-1 {
+  padding: 50px 0
+}
+
+.product-quantity-wrapper {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center
+}
+#footerNewsPaperContainer a {
+  color: #000;
+}
+.row a {
+  color: #fffF;
+}
+
+#footerNewsPaperContainer a {
+  color: #000;
+}
+
 #footerNewsPaperContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.quote-page-columns {
+  padding: 0 !important
 }

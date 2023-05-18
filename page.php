@@ -14,7 +14,6 @@
  */
 
 use Digital_Newspaper\CustomizerDefault as DN;
-
 get_header();
 
 if (is_front_page()) :

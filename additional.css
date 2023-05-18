@@ -8,6 +8,7 @@
   font-display: swap;
 }
 
+
 #policiesRow a, .footer-widget ul a, .row a {
   text-decoration: none
 }
@@ -449,7 +450,9 @@ body .entry-content a {
   display: flex;
   align-items: center
 }
-
+#footerNewsPaperContainer a {
+  color: #000;
+}
 .row a {
   color: #fffF;
 }

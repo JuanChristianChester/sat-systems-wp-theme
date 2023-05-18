@@ -16,12 +16,11 @@
  */
 do_action('digital_newspaper_before_footer_section');
 ?>
-	<footer id="colophon" class="site-footer dark_bk">
-		
-		<div class="digital-newspaper-container" id="footerNewsPaperContainer">
-			<div class="row" id="certifiedRow">
-				<h2 id="certifiedFooterText">Certified</h2>
-			</div>
+<footer id="colophon" class="site-footer dark_bk">
+
+	<div class="digital-newspaper-container" id="footerNewsPaperContainer">
+		<div class="row" id="certifiedRow">
+			<h2 id="certifiedFooterText">Certified</h2>
 		</div>
 		<div class="digital-newspaper-container" id="footerNewsPaperContainer">
 			<div class="row" id="certifiedLogosContainer">
@@ -35,11 +34,17 @@ do_action('digital_newspaper_before_footer_section');
 					<img src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/SGS_ISO_9001_TCL_HR-removebg-preview.png"; ?> alt = "SGS Logo">
 				</div>
 			</div>
-		</div>
-		<div class="digital-newspaper-container" id="footerNewsPaperContainer">
-			<div class="row" id="ltdRow">
-				<h2 id="ltdFooterText">Sub Aquatic Technical Systems Ltd</h2>
+			<div class="certification-logo">
+				<img src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/RGB_IMCA_Logo_-_Supplier__S__Member-removebg-preview.png"; ?>>
 			</div>
+			<div class="certification-logo">
+				<img src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/SGS_ISO_9001_TCL_HR-removebg-preview.png"; ?>>
+			</div>
+		</div>
+	</div>
+	<div class="digital-newspaper-container" id="footerNewsPaperContainer">
+		<div class="row" id="ltdRow">
+			<h2 id="ltdFooterText">Sub Aquatic Technical Systems Ltd</h2>
 		</div>
 		<div class="digital-newspaper-container" id="footerNewsPaperContainer">
 			<div class="footer-inner digital-newspaper-container">

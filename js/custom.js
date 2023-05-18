@@ -17,8 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
   
       var removeButton = document.createElement('button');
       removeButton.type = 'button';
-      removeButton.innerText = 'Remove';
-      removeButton.classList.add('remove-button'); // Add a CSS class to the remove button
+      removeButton.classList.add('remove-button');
+      removeButton.textContent = 'Remove';
+      removeButton.addEventListener('click', function() {
+          container.removeChild(wrapper);
+      });
   
       var wrapper = document.createElement('div');
       wrapper.classList.add('product-quantity-wrapper'); // Add a CSS class to the wrapper div
@@ -28,11 +31,25 @@ document.addEventListener('DOMContentLoaded', function() {
   
       container.appendChild(wrapper);
     });
-  
-    container.addEventListener('click', function(e) {
-      if (e.target.classList.contains('remove-button')) {
-        e.target.parentNode.remove();
-      }
+
+    var form = document.getElementById('358');
+    form.addEventListener('submit', function() {
+        var products = document.querySelectorAll('.product-field');
+        var quantities = document.querySelectorAll('.quantity-field');
+        var productsQuantities = [];
+
+        for (var i = 0; i < products.length; i++) {
+            var product = products[i].value;
+            var quantity = quantities[i].value;
+            if (product !== '' && quantity !== '') {
+                productsQuantities.push(product + ' - ' + quantity);
+            }
+        }
+
+        document.getElementById('products-quantities').value = productsQuantities.join(', ');
     });
+  
   }
   });
+
+  

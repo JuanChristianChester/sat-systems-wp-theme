@@ -51,26 +51,24 @@ do_action('digital_newspaper_before_footer_section');
 				<div class="footer-widget column-three">
 					<ul>
 						<a href="<?php echo home_url(); ?>">Home</a>
-						<a href="<?php echo home_url('/helpdesk'); ?>">Helpdesk</a>
-						<a href="<?php echo home_url('category/news/'); ?>">News</a>
-						<a href="<?php echo home_url('/contact-us-2'); ?>">Contact</a>
-						<a href="<?php echo home_url('/about-2'); ?>">About</a>
+						<a href="<?php echo home_url('/index.php/helpdesk'); ?>">Helpdesk</a>
+						<a href="<?php echo home_url('index.php/category/news'); ?>">News</a>
+						<a href="<?php echo home_url('/index.php/contact-us-2'); ?>">Contact</a>
+						<a href="<?php echo home_url('/index.php/about-2'); ?>">About</a>
 					</ul>
 				</div>
 				<div class="footer-widget column-three">
-					<a>Products and Solutions</a>
-					<a>Instrumentation</a>
-					<a>Data Logging</a>
-					<a>Communication</a>
+					<a href="<?php echo home_url('/index.php/instrumentation-2'); ?>">Instrumentation</a>
+					<a href="<?php echo home_url('/index.php/data-logging'); ?>">Data Logging</a>
+					<a href="<?php echo home_url('/index.php/communications'); ?>">Communications</a>
 				</div>
 				<div class="footer-widget column-three">
-					<a>Industries</a>
-					<a>Commercial Diving</a>
-					<a>Medical</a>
-					<a>Defense</a>
-					<a>Tunneling</a>
-					<a>Leisure Submarines</a>
-					<a>Hyperbaric Chambers</a>
+					<a href="<?php echo home_url('index.php/commercial-diving'); ?>">Commercial Diving</a>
+					<a href="<?php echo home_url('index.php/medical'); ?>">Medical</a>
+					<a href="<?php echo home_url('index.php/defence'); ?>">Defense</a>
+					<a href="<?php echo home_url('index.php/tunnelling'); ?>">Tunneling</a>
+					<a href="<?php echo home_url('index.php/leisure-submarines'); ?>">Leisure Submarines</a>
+					<a href="<?php echo home_url('index.php/hyperbaric-chambers'); ?>">Hyperbaric Chambers</a>
 				</div>
 			</div>
 		</div>
@@ -88,24 +86,24 @@ do_action('digital_newspaper_before_footer_section');
 				<p>SAT Systems Ltd, 26 Main Road, Kirk Michael, Isle of Man, IM6 1SS</p>
 			</div>
 			<div class="footer-widget column-three" id="policiesRow">
-				<a>Terms & Conditions</a>
-				<a>Privacy Policy</a>
-				<a>Quality Policy</a>
+				<a href="<?php echo home_url('index.php/privacy-policy-2'); ?>">Privacy Policy</a>
+				<a href="<?php echo home_url('index.php/quality-policy/'); ?>">Quality Policy</a>
 			</div>
 			<div class="social-icons-footer">
-				<a>
-					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/Twitter.png"; ?> alt="Twitter">
+				<a href="https://twitter.com/SAT_Systems" target="_blank">
+					<img class="footer-social-icons" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/custom-images/Twitter.png'; ?>" alt="Twitter">
 				</a>
-				<a>
-					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/Facebook.png"; ?> alt="Facebook">
+				<a href="https://www.facebook.com/SAT-Systems-ltd" target="_blank">
+					<img class="footer-social-icons" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/custom-images/Facebook.png'; ?>" alt="Facebook">
 				</a>
-				<a>
-					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/Youtube.png"; ?> alt="Youtube">
+				<a href="https://www.youtube.com/user/SatsystemsLtd" target="_blank">
+					<img class="footer-social-icons" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/custom-images/Youtube.png'; ?>" alt="Youtube">
 				</a>
-				<a>
-					<img class="footer-social-icons" src=<?php echo get_stylesheet_directory_uri() . "/assets/images/custom-images/LinkedIn.png"; ?> alt="LinkedIn">
+				<a href="https://im.linkedin.com/in/fred-stokes-5ab38922?original_referer=https%3A%2F%2F2126669.linux.studentwebserver.co.uk%2F" target="_blank">
+					<img class="footer-social-icons" src="<?php echo get_stylesheet_directory_uri() . '/assets/images/custom-images/LinkedIn.png'; ?>" alt="LinkedIn">
 				</a>
 			</div>
+
 		</div>
 	</div>
 	<?php

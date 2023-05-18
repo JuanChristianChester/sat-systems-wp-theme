@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+  if (document.location.href.indexOf('/get-a-quote/') > -1) {
     var container = document.getElementById('product-quantity-container');
     var addButton = document.getElementById('add-more');
   
@@ -33,4 +34,5 @@ document.addEventListener('DOMContentLoaded', function() {
         e.target.parentNode.remove();
       }
     });
+  }
   });

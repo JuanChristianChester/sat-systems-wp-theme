@@ -58,17 +58,21 @@ do_action('digital_newspaper_before_footer_section');
 					</ul>
 				</div>
 				<div class="footer-widget column-three">
-					<a href="<?php echo home_url('/index.php/instrumentation-2'); ?>">Instrumentation</a>
-					<a href="<?php echo home_url('/index.php/data-logging'); ?>">Data Logging</a>
-					<a href="<?php echo home_url('/index.php/communications'); ?>">Communications</a>
+					<ul>
+						<a href="<?php echo home_url('/index.php/instrumentation-2'); ?>">Instrumentation</a>
+						<a href="<?php echo home_url('/index.php/data-logging'); ?>">Data Logging</a>
+						<a href="<?php echo home_url('/index.php/communications'); ?>">Communications</a>
+					</ul>
 				</div>
 				<div class="footer-widget column-three">
-					<a href="<?php echo home_url('index.php/commercial-diving'); ?>">Commercial Diving</a>
-					<a href="<?php echo home_url('index.php/medical'); ?>">Medical</a>
-					<a href="<?php echo home_url('index.php/defence'); ?>">Defense</a>
-					<a href="<?php echo home_url('index.php/tunnelling'); ?>">Tunneling</a>
-					<a href="<?php echo home_url('index.php/leisure-submarines'); ?>">Leisure Submarines</a>
-					<a href="<?php echo home_url('index.php/hyperbaric-chambers'); ?>">Hyperbaric Chambers</a>
+					<ul>
+						<a href="<?php echo home_url('index.php/commercial-diving'); ?>">Commercial Diving</a>
+						<a href="<?php echo home_url('index.php/medical'); ?>">Medical</a>
+						<a href="<?php echo home_url('index.php/defence'); ?>">Defense</a>
+						<a href="<?php echo home_url('index.php/tunnelling'); ?>">Tunneling</a>
+						<a href="<?php echo home_url('index.php/leisure-submarines'); ?>">Leisure Submarines</a>
+						<a href="<?php echo home_url('index.php/hyperbaric-chambers'); ?>">Hyperbaric Chambers</a>
+					</ul>
 				</div>
 			</div>
 		</div>
